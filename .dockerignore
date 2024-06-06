@@ -1,0 +1,19 @@
+# Ignore everything by default
+**
+
+# Exclude the following files
+!lib/
+!scripts/
+!src/
+!test/
+
+!.git/
+!.gitmodules
+!foundry.toml
+!makefile
+!.env
+
+# Proxy Server & Initialization Scripts
+!nginx.conf
+!initialize-dev-env.sh
+!get-value.sh
